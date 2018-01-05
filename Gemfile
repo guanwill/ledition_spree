@@ -9,6 +9,8 @@ gem 'spree', '~> 3.4.4'
 gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
 gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'
+gem 'jquery-rails'
+gem 'bootstrap', '~> 4.0.0.beta3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
