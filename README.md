@@ -1,24 +1,11 @@
-# README
+# E-Commerce Store
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Set up Spree
 
-Things you may want to cover:
+* Set up Paypal Express (tested with sandbox accounts)
 
-* Ruby version
+* Added landing page and contact us page
 
-* System dependencies
+* Added styling and layout updates
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Added mock products and mock transactions
