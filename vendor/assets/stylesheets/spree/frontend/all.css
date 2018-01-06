@@ -11,6 +11,115 @@
 */
 
 
+/*SPREE HEADER*/
 .header_logo_div {
   text-align: center;
+}
+
+.spree_header_logo {
+  font-family: 'Joti One', cursive;
+  font-size: 5.75rem;
+  color: white;
+}
+
+#spree-header #header {
+  background: #1c213a;
+  border-bottom: 1px solid white;
+}
+
+#spree-header {
+  background: #283541;
+}
+
+.spree_header_logo_a:hover {
+  text-decoration: none;
+}
+
+.navbar .navbar-nav {
+  float: none;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.navbar-nav > li {
+   float: none;
+}
+
+#spree-header .nav a:hover, #spree-header .nav a:focus {
+  background: #283541;
+}
+
+/*SPREE BODY*/
+.spree_body {
+  margin-top: 50px;
+}
+
+.taxon-title {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 26px;
+  color: #1c213a;
+}
+
+/*SPREE SIDEBAR*/
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  z-index: 2;
+  color: #fff;
+  background-color: #1c213a;
+}
+
+.list-group-item {
+  border: 0;
+}
+
+.list-group {
+  margin-top: 25px;
+}
+
+.taxonomy-root {
+  font-family: 'Joti One', cursive;
+  font-size: 22px;
+  color: darkorange;
+  text-align: center;
+}
+
+/*SPREE PRODUCT*/
+
+/*SPREE FOOTER*/
+
+ .mastfootspree {
+   color: white;
+   width: 100%;
+   text-align: center;
+   background: black;
+   position: fixed;
+   bottom: 0;
+   padding: 15px;
+ }
+
+ .inner p {
+   margin-bottom: 0;
+ }
+
+ .footerspree {
+   color: white;
+   padding-left: 5px;
+   padding-right: 5px;
+ }
+
+ .footerspree:hover {
+   text-decoration: none;
+   color: lightgrey;
+ }
+
+/*RESPONSIVENESS*/
+@media (max-width: 375px ) {
+  .sidebar-item {
+    border: 1px solid #ddd;
+  }
+  .list-group-item:first-child {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
 }

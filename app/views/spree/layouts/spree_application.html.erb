@@ -5,16 +5,21 @@
 <!--[if IE 9 ]>    <html class="ie ie9" lang="<%= I18n.locale %>"> <![endif]-->
 <!--[if gt IE 9]><!--><html lang="<%= I18n.locale %>"><!--<![endif]-->
   <head data-hook="inside_head">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Coda|Electrolize|Gloria+Hallelujah|Joti+One|Montserrat+Alternates|Press+Start+2P|Rock+Salt|Sedgwick+Ave+Display" rel="stylesheet">
+
     <%= render partial: 'spree/shared/head' %>
+
+
+
   </head>
   <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
     <%= render partial: 'spree/shared/google_analytics.js' %>
     <%= render partial: 'spree/shared/trackers/segment/initializer.js' %>
     <%= render partial: 'spree/shared/header' %>
 
-    <div class="container">
+    <div class="spree_body container">
       <div class="row" data-hook>
-        <%= breadcrumbs(@taxon) %>
+        <!-- <%= breadcrumbs(@taxon) %> -->
 
         <%= render partial: 'spree/shared/sidebar' if content_for? :sidebar %>
 
@@ -26,5 +31,11 @@
         <%= yield :templates %>
       </div>
     </div>
+
+    <footer class="mastfootspree">
+      <div class="inner">
+        <p><a class="footerspree" href="/"> HOME </a>|<a class="footerspree" href="/store"> STORE </a>|<a class="footerspree" href="/contact"> CONTACT </a>  </p>
+      </div>
+    </footer>
   </body>
 </html>
