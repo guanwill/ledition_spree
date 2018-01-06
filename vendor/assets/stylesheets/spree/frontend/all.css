@@ -53,6 +53,7 @@
 /*SPREE BODY*/
 .spree_body {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .taxon-title {
@@ -93,7 +94,7 @@
    width: 100%;
    text-align: center;
    background: black;
-   position: fixed;
+   position: relative;
    bottom: 0;
    padding: 15px;
  }
@@ -117,6 +118,7 @@
 @media (max-width: 375px ) {
   .sidebar-item {
     border: 1px solid #ddd;
+    margin-bottom: 20px;
   }
   .list-group-item:first-child {
     border-top-right-radius: 0px;
