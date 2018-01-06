@@ -35,7 +35,7 @@
   text-decoration: none;
 }
 
-.navbar .navbar-nav {
+/*.navbar .navbar-nav {
   float: none;
   vertical-align: top;
   text-align: center;
@@ -44,7 +44,7 @@
 
 .navbar-nav > li {
    float: none;
-}
+}*/
 
 #spree-header .nav a:hover, #spree-header .nav a:focus {
   background: #283541;
@@ -86,6 +86,10 @@
 }
 
 /*SPREE PRODUCT*/
+.out-of-stock {
+  color: red;
+  font-weight: bold;
+}
 
 /*SPREE FOOTER*/
 
@@ -112,6 +116,11 @@
  .footerspree:hover {
    text-decoration: none;
    color: lightgrey;
+ }
+
+ /*SPREE PAYMENT*/
+ #payment-methods {
+   margin-bottom: 30px;
  }
 
 /*RESPONSIVENESS*/
