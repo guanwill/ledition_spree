@@ -8,7 +8,7 @@
 <%= render partial: 'spree/shared/trackers/segment/cart_viewed.js',
             formats: :js,
             locals: { order: @order } %>
-<div data-hook="cart_container">
+<div class="cart_container" data-hook="cart_container">
   <h1><%= Spree.t(:shopping_cart) %></h1>
 
   <% if @order.line_items.empty? %>
@@ -36,7 +36,7 @@
             </div>
           </div>
 
-          <% if Spree::Frontend::Config[:coupon_codes_enabled] %>
+          <!-- <% if Spree::Frontend::Config[:coupon_codes_enabled] %>
             <div class='col-md-6 form-inline pull-right' data-hook='coupon_code'>
               <label>
                 <%= order_form.label :coupon_code %>
@@ -44,7 +44,7 @@
                 <%= button_tag Spree.t(:coupon_code_apply), class: 'btn btn-default' %>
               </label>
             </div>
-          <% end %>
+          <% end %> -->
         </div>
       <% end %>
     </div>
