@@ -102,6 +102,22 @@ body {
   color: white;
 }
 
+.quality_description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quality_description_button, .quality_description_button:hover, .quality_description_button:focus, .quality_description_button:visited, .quality_description_button:active {
+  color: lightgrey;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.q_rating_p {
+  color: lightgrey;
+  font-style: italic;
+}
+
 /*SPREE FOOTER*/
  .mastfootspree {
    color: white;
