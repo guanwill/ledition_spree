@@ -118,6 +118,11 @@ body {
   font-style: italic;
 }
 
+#main-image {
+  background: none;
+  border: 0;
+}
+
 /*SPREE FOOTER*/
  .mastfootspree {
    color: white;
